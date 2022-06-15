@@ -1,0 +1,17 @@
+digraph listaVentanillas {
+node[shape=box]
+edge[arrowhead=none]
+0 [label=Ventanilla1]
+1 [label="Craggie Jackalin\nIMG C 1\nIMG BN 1"]
+2 [label=Ventanilla2]
+3 [label=Ventanilla3]
+4 [label=Ventanilla4]
+5 [label=Ventanilla5]
+1->0
+0->2
+2->3
+3->4
+4->5
+{rank=same; 1; 0}
+rankdir=TB
+}

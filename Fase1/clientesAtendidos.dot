@@ -1,0 +1,12 @@
+digraph clientesAtendidos {
+node[shape=box]
+edge[arrowhead=none]
+0 [label="Craggie Jackalin\nIMG C 1\nIMG BN 2"]
+1 [label="Penn Blaszczynski\nIMG C 1\nIMG BN 1"]
+2 [label="Rosalinde Bradnum\nIMG C 0\nIMG BN 1"]
+3 [label="Arlin Limerick\nIMG C 1\nIMG BN 0"]
+0->1
+1->2
+2->3
+rankdir=LR
+}

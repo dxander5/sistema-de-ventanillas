@@ -1,0 +1,33 @@
+digraph ClientesEnEspera {
+node[shape=box]
+edge[arrowhead=none]
+0 [label="Genni Clougher\nIMG C 0\nIMG BN 1"]
+1 [label=BN]
+2 [label="Theda Donaho\nIMG C 0\nIMG BN 4"]
+3 [label=BN]
+4 [label=BN]
+5 [label=BN]
+6 [label=BN]
+7 [label="Hewie Rizzini\nIMG C 1\nIMG BN 1"]
+8 [label=Color]
+9 [label="Vinni Richardot\nIMG C 2\nIMG BN 1"]
+10 [label="Pablo Molina\nIMG C 0\nIMG BN 1"]
+11 [label="Juan Ortiz\nIMG C 1\nIMG BN 2"]
+0->1
+0->2
+2->3
+3->4
+4->5
+5->6
+2->7
+7->8
+7->9
+9->10
+10->11
+{rank=same; 0; 2}
+{rank=same; 2; 7}
+{rank=same; 7; 9}
+{rank=same; 9; 10}
+{rank=same; 10; 11}
+rankdir=TB
+}

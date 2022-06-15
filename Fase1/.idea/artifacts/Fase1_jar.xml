@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Fase1:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Fase1_jar</output-path>
+    <root id="archive" name="Fase1.jar">
+      <element id="module-output" name="Fase1" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.m2/repository/org/jetbrains/annotations/23.0.0/annotations-23.0.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,54 @@
+digraph ejemplo {
+node[shape=box]
+edge[arrowhead=none]
+0 [label="Sashenka Sebert\nIMG C 2\nIMG BN 1"]
+1 [label="Candis Hirche\nIMG C 2\nIMG BN 0"]
+2 [label="Joey Stickney\nIMG C 0\nIMG BN 2"]
+3 [label="Joey Shearman\nIMG C 0\nIMG BN 4"]
+4 [label="Peggie Webberley\nIMG C 2\nIMG BN 0"]
+5 [label="Shannen Goad\nIMG C 0\nIMG BN 0"]
+6 [label="Lyn Holstein\nIMG C 2\nIMG BN 3"]
+7 [label="Peggie Primo\nIMG C 2\nIMG BN 1"]
+8 [label="Rossie Sapsforde\nIMG C 0\nIMG BN 3"]
+9 [label="Peggie Sapsforde\nIMG C 3\nIMG BN 1"]
+10 [label="Annadiane Sapsforde\nIMG C 3\nIMG BN 4"]
+11 [label="Sashenka Yurukhin\nIMG C 2\nIMG BN 3"]
+12 [label="Dulciana Colchett\nIMG C 3\nIMG BN 4"]
+13 [label="Pippo Yurukhin\nIMG C 0\nIMG BN 4"]
+14 [label="Pippo Stickney\nIMG C 1\nIMG BN 0"]
+15 [label="Shannen Shearman\nIMG C 4\nIMG BN 4"]
+16 [label="Candis Wagon\nIMG C 3\nIMG BN 3"]
+17 [label="Jaimie Cansdell\nIMG C 2\nIMG BN 2"]
+18 [label="Rossie Wagon\nIMG C 3\nIMG BN 3"]
+19 [label="Daffy Rivers\nIMG C 3\nIMG BN 3"]
+20 [label="Dulciana Holstein\nIMG C 4\nIMG BN 0"]
+21 [label="Annadiane Shearman\nIMG C 2\nIMG BN 3"]
+22 [label="Jaimie McSaul\nIMG C 1\nIMG BN 1"]
+23 [label="Ethelda Bassingham\nIMG C 3\nIMG BN 2"]
+24 [label="Pennie Webberley\nIMG C 0\nIMG BN 0"]
+0->1
+1->2
+2->3
+3->4
+4->5
+5->6
+6->7
+7->8
+8->9
+9->10
+10->11
+11->12
+12->13
+13->14
+14->15
+15->16
+16->17
+17->18
+18->19
+19->20
+20->21
+21->22
+22->23
+23->24
+rankdir=LR
+}

@@ -1,0 +1,56 @@
+digraph listaVentanillas {
+node[shape=box]
+edge[arrowhead=none]
+0 [label=Ventanilla1]
+1 [label="Lyn McSaul\nIMG C 1\nIMG BN 2"]
+2 [label=Ventanilla2]
+3 [label="Pippo Furminger\nIMG C 4\nIMG BN 4"]
+4[label=Color]
+5 [label=Ventanilla3]
+6 [label="Sashenka Holstein\nIMG C 3\nIMG BN 3"]
+7[label=Color]
+8[label=Color]
+9 [label=Ventanilla4]
+10 [label="Casper Sambells\nIMG C 3\nIMG BN 3"]
+11[label=BN]
+12[label=BN]
+13[label=Color]
+14[label=Color]
+15[label=Color]
+16 [label=Ventanilla5]
+17 [label=Ventanilla6]
+18 [label=Ventanilla7]
+19 [label=Ventanilla8]
+1->0
+0->2
+3->2
+2->4
+2->5
+6->5
+5->7
+7->8
+5->9
+10->9
+9->11
+11->12
+12->13
+13->14
+14->15
+9->16
+16->17
+17->18
+18->19
+{rank=same; 1; 0}
+{rank=same; 3; 2}
+{rank=same; 2; 4}
+{rank=same; 6; 5}
+{rank=same; 5; 7}
+{rank=same; 7; 8}
+{rank=same; 10; 9}
+{rank=same; 9; 11}
+{rank=same; 11; 12}
+{rank=same; 12; 13}
+{rank=same; 13; 14}
+{rank=same; 14; 15}
+rankdir=TB
+}
